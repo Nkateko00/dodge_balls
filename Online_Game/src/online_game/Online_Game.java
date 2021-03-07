@@ -348,7 +348,7 @@ public class Online_Game extends JComponent implements ActionListener, KeyListen
 
     public static void main(String[] args) {
         JFrame gf = new JFrame();
-        Gar st = new Gar();
+        Online_Game st = new Online_Game();
         //declared the Timer outside of the main method as a class variable
         //so that i can access t in GameOver() and call its t.stop()
         //to stop the timer. Once the timer is stopped, then it wont call the actionPerformed()
