@@ -239,6 +239,7 @@ public class Online_Game extends JComponent implements ActionListener, KeyListen
         perimeter();
     }
     public void perimeter(){
+        //
     
     	if(s>=560){
     		s = 560;
